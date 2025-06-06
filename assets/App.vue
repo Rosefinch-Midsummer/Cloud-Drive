@@ -17,8 +17,8 @@
     </button>
     <div class="app-bar">
       <a class="app-title-container" style="display: flex; align-items: center;" href="/">
-        <img src="/assets/homescreen.png" alt="FlareDrive" style="height: 24px" />
-        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">FlareDrive</h1>
+        <img src="/assets/homescreen.png" alt="CloudDrive" style="height: 24px" />
+        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">CloudDrive</h1>
       </a>
 
       <input type="search" v-model="search" aria-label="Search" placeholder="🍿 输入以全局搜索文件" />
@@ -596,7 +596,7 @@ export default {
           window.history.pushState(null, "", url.toString());
         }
         document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/" 
-            ? "FlareDrive-R2 - 优雅的 Cloudflare R2 网盘文件库"
+            ? "CloudDrive-R2 - 优雅的 Cloudflare R2 网盘文件库"
             :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 优雅的 Cloudflare R2 网盘文件库`;
       },
       immediate: true,

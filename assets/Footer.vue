@@ -20,10 +20,10 @@
     </div>
 
     <div class="project-links">
-      <strong>项目:</strong><a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
-        rel="noopener noreferrer">FlareDrive-R2</a>
-      <strong>作者:</strong><a href="https://github.com/willow-god" target="_blank"
-        rel="noopener noreferrer">LiuShen</a>
+      <strong>项目:</strong><a href="https://github.com/Rosefinch-Midsummer/Cloud-Drive" target="_blank"
+        rel="noopener noreferrer">Cloud-Drive</a>
+      <strong>作者:</strong><a href="https://github.com/Rosefinch-Midsummer" target="_blank"
+        rel="noopener noreferrer">Rosefinch-Midsummer</a>
       <strong>初始项目:</strong><a href="https://github.com/ljxi/Cloudflare-R2-oss" target="_blank"
         rel="noopener noreferrer">Cloudflare-R2-OSS</a>
     </div>
@@ -31,7 +31,7 @@
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
         rel="noopener noreferrer">Cloudflare Workers</a></div>
 
-    <div style="margin:10px 0;">© 2025 FlareDrive. All rights reserved.</div>
+    <div style="margin:10px 0;">© 2025 Cloud Drive. All rights reserved.</div>
   </footer>
 </template>
 
@@ -40,10 +40,10 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.liushen.fun/",
-      blogUrl: "https://blog.liushen.fun/",
-      githubUrl: "https://github.com/willow-god",
-      emailUrl: "mailto:01@liushen.fun"
+      homeUrl: "https://rosefinch-midsummer.github.io/",
+      blogUrl: "https://rosefinch-midsummer.github.io/",
+      githubUrl: "https://github.com/Rosefinch-Midsummer",
+      emailUrl: "mailto:RM@gmail.com"
     };
   }
 };
